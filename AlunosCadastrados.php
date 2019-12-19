@@ -16,7 +16,7 @@ and open the template in the editor.
     </head>
     <body >
         <div class="meio">
-             <h1> Alunos Cadastrados</h1>
+             <h1> Ver seu boletim</h1>
 
             <?php 
                 foreach($alunos as $aluno){

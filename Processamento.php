@@ -90,7 +90,7 @@
                             echo "Error: " . $sqn . "<br>" . mysqli_error($con);
                         }
                             mysqli_close($con);
-                }    
+                 }    
                 
                 
                 //Criando o objeto estudante e nota
@@ -115,10 +115,10 @@
                 $aluno_id = $notas->getAluno_id();
                 $professor_id = $notas->getProfessor_id();
                 
-                if($nota1 !=null){
+                if($materia !=null){
                 //Inserindo os valores das variaveis na tabela do banco de dados
                 $sqd = "INSERT INTO notas (materia, nota1, nota2, nota3, nota4, aluno_id, professor_id)
-                 VALUES ('$materia', '$nota1', '$nota2', '$nota3', '$nota4', $aluno_id, $professor_id)";
+                 VALUES ('$materia', '$nota1', '$nota2', '$nota3', '$nota4', '$aluno_id', '$professor_id')";
                     
                     
                     if (mysqli_query($con, $sqd)) //Realiza uma consulta no banco de dados e retornando uma mensagem 

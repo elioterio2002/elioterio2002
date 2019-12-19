@@ -21,7 +21,11 @@ and open the template in the editor.
             <?php 
                 foreach($notas as $id => $nota){
                     echo $id. " " . $nota . "<br>";
+                    
+                    
                 }
+                
+                
             ?>
         </div>
     </body>
