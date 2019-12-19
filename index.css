@@ -1,0 +1,128 @@
+body{
+    background-color: #088A85;
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.meio{
+    background-color: white;
+    width:400px;
+    height:500px;
+    margin:auto;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.meio2{
+    background-color: white;
+    width:600px;
+    height:600px;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.formulario{
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 60%;
+    height:30px;
+     padding-left: 10px;
+}
+.formulario_seg{
+     margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 60%;
+    height:30px;
+     padding-left: 10px;
+     font-size: 15px;
+     font:sans-serif;
+     box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+     padding-top: 10px;
+     text-align: center;
+}
+.formulario2{
+       margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 63%;
+    height:30px;
+    background-color: rgba(21,47,218,0.7);
+    color:white;
+    border:1.4px;
+    border-style: solid;
+    border-color: black;
+     cursor: pointer;
+     margin-bottom: 30px;
+     box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+     font-size: 18px;
+}
+.texto{
+    text-align: center;
+    margin-top:0;
+    padding-top: 10px;
+    color: rgba(0,0,0,0.7);
+    font: 25px showcard gothic;
+}
+.tabela{
+    margin:auto;
+    
+}
+#botao{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 60%;
+    height:30px;
+    background-color: rgba(21,47,218,0.7);
+    border:1.4px;
+    border-style: solid;
+    border-color: black;
+     cursor: pointer;
+     box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
+a:link{
+    text-decoration: none;
+    
+}
+.titulos{
+    text-align: center;
+    padding-left: 20px;
+}
+.btn-default{
+    color:white;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    
+        
+}
+#botao2{
+        text-align: center;
+    padding-top: 5px;
+   
+    font-size: 15px;
+    margin-top: 30%;
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 60%;
+    height:30px;
+    background-color: rgba(21,47,218,0.7);
+    border:1.4px;
+    border-style: solid;
+    border-color: black;
+     cursor: pointer;
+     box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
